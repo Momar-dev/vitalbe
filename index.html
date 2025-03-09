@@ -3,106 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="icone.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="Le niébé, une légumineuse polyvalente et écologique, se distingue par ses nombreuses variétés et son usage culinaire et médicinal. Culture durable, il soutient l'agriculture locale et connaît une forte demande internationale." />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <title>Vitalbé</title>
 </head>
 <body>
-    
- <header>
 
-    <div class="logo">
-        <p><span>Vital</span>Bé</p>
-    </div>
+     <header>
+      <div class="menu_toggle">
+          <span></span>
+      </div>
+      <div class="logo">
+          <p><span>Vital</span>Bé</p>
+      </div>
+      <ul class="menu">
+          <li><a href="#home">Acceuil</a></li>
+          <li><a href="#produits">Produit</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </header>
 
-    <ul class="menu">
-       <li><a href="#">Acceuil</a></li>
-       <li><a href="#">Produits</a></li>
-       <li><a href="#">Contacts</a></li>
-    </ul>
+   
+  <section id="home">
+      <div class="left">
+         <h1>Niébé <br> <span> 100 % Naturel </span></h1>
+         <p>Le niébé (haricot, niébé) est une légumineuse d’une grande pertinence
+            En termes d'originalité, le niébé se distingue par sa diversité de variétés (blanc, noir, rouge) et sa 
+            polyvalence culinaire, utilisé dans des plats traditionnels ou des boissons comme le jus de niébé.</p>
+          <a href="#produits">Découvrir !</a>
+      </div>
+      <div class="right">
+          <img src="vitalbe.png">
+      </div>
+  </section>
 
- </header>
+   
+   <section id="produits">
+      <h1 class="section_title">Nos produits</h1>
+      <div class="images">
+          <ul>
+              <li class="produit">
+                 <div>
+                     <img src="café.jpg" alt="">
+                 </div>
+                 <span>Café Niébé</span>
+                 <span class="prix">300.000$</span>
+                 <a href="#">ACHETER MAINTENANT</a>
+              </li>
+              <li class="produit">
+                  <div>
+                      <img src="café.jpg" alt="">
+                  </div>
+                  <span>Couscous Niébé</span>
+                  <span class="prix">300.000$</span>
+                  <a href="#">ACHETER MAINTENANT</a>
+               </li>
+               <li class="produit">
+                  <div>
+                      <img src="café.jpg" alt="">
+                  </div>
+                  <span>Croquette Niébé</span>
+                  <span class="prix">300.000$</span>
+                  <a href="#">ACHETER MAINTENANT</a>
+               </li>
+               <li class="produit">
+                  <div>
+                      <img src="café.jpg" alt="">
+                  </div>
+                  <span>Farine Niébé</span>
+                  <span class="prix">300.000$</span>
+                  <a href="#">ACHETER MAINTENANT</a>
+               </li>
+          </ul>
+      </div>
+  </section>
 
-<section id="home">
-   <div class="left">
-    <h1>Niébé <span> 100 % Naturel </span></h1>
-    <p>Le niébé (haricot, niébé) est une légumineuse d’une grande pertinence
- 
-      En termes d'originalité, le niébé se distingue par sa diversité de variétés (blanc, noir, rouge) et sa polyvalence culinaire, utilisé dans des plats traditionnels ou des boissons comme le jus de niébé. Il est aussi utilisé dans la médecine traditionnelle pour ses propriétés digestives et anti-inflamm
-      Enfin, le niébé est une culture durable, nécessitant peu d’eau et de fertilisants, ce qui en fait une option écologique. Il joue un rôle clé dans l’agriculture locale, soutenant les petits exploitants agricoles, et connaît une demande croissante sur les marchés internationaux, renforçant ainsi sa pertinence</p>
-    <a href="#">Découvrir !</a>
+   <section id="contact">
+      <h1 class="section_title">Nos contacts</h1>
+      <div class="localisation_contact_div">
+          <div class="localisation">
+              <h3>Notre Adresse</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10499.966567606692!2d2.285747998068967!3d48.85836977022069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1644955637071!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+
+          <div class="form_contact">
+              <h3>Envoyer un message</h3>
+              <form action="#">
+                  <input type="text"placeholder="Nom">
+                  <input type="email"placeholder="Adresse Mail">
+                  <input type="text"placeholder="Objet">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                  <input type="submit" value="Envoyer">
+              </form>
+          </div>
+      </div>
+  </section>  
+<footer class="footer">
+   <div class="container">
+      <div class="row">        
+         <div class="footer-col">
+            <h4>Suivez Nous : </h4>
+            <div class="social-links">
+                   <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                   <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                   <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+            </div>
+         </div>
+         <div class="footer-col">
+            <h4>Plus d'infos au </h4>
+           <h3 style="font-size:17px; color: white;"> + 221 77 754 20 53  </h3> 
+         </div>
    </div>
 
-   <div class="right">
-    <img src="vitalbe.png" alt="">
-   </div>
-</section>
+         <h5 class="auteur">	&copy; Momar DIOP | Tous droits réservés.</h5>                  
+</footer>
 
-<section id="produits">
-  <h1 class="section_title">Nos produits</h1> 
-  <div class="images">
-   <ul>
+<script>
 
 
-      <li class="produit">
-         <div>
-            <img src="" alt="">
-         </div>
-         <span>Couscous</span>
-         <span class="prix">1200 FCFA</span>
-         <a href="#">Acheter Maintenant</a>
-      </li>
-      <li class="produit">
-         <div>
-            <img src="" alt="">
-         </div>
-         <span>Couscous</span>
-         <span class="prix">1200 FCFA</span>
-         <a href="#">Acheter Maintenant</a>
-      </li>
-      <li class="produit">
-         <div>
-            <img src="" alt="">
-         </div>
-         <span>Couscous</span>
-         <span class="prix">1200 FCFA</span>
-         <a href="#">Acheter Maintenant</a>
-      </li>
-      <li class="produit">
-         <div>
-            <img src="" alt="">
-         </div>
-         <span>Couscous</span>
-         <span class="prix">1200 FCFA</span>
-         <a href="#">Acheter Maintenant</a>
-      </li>
-   </ul>
-  </div>
-</section>
+   var menu_toggle = document.querySelector('.menu_toggle');
+   var menu = document.querySelector('.menu');
+   var menu_toggle_span = document.querySelector('.menu_toggle span');
 
-<section id="contact">
+   menu_toggle.onclick = function(){
+       menu_toggle.classList.toggle('active');
+       menu_toggle_span.classList.toggle('active');
+       menu.classList.toggle('responsive') ;
+   }
 
- <h1 class="section_title">Nos contacts</h1>
- <div class="localisation_contact_div">
-   <div class="localisation">
-      <h3>Notre Adresse</h3>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15430.451922884173!2d-16.947140815186753!3d14.790816218315442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1bfbf94db1b3f%3A0xf9e6364a8f8032e5!2zZGl4acOpbWUsIFRoacOocw!5e0!3m2!1sfr!2ssn!4v1741441766803!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </div>
+</script>
 
-
-   <div class="form_contact">
-      <h3>Envoyer Message</h3>
-      <form action="#">
-         <input type="text" placeholder="Nom">
-         <input type="email" placeholder="Exemple@gmail.com">
-         <input type="text" placeholder="Objet">
-         <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-         <input type="submit" value="Envoyer">
-      </form>
-   </div>
- </div>
- 
-</section>
 
 </body>
 </html>
