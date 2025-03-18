@@ -50,7 +50,7 @@
                  </div>
                  <span>Café Niébé</span>
                  <span class="prix">1500 FCFA</span>
-                 <a href="#">ACHETER MAINTENANT</a>
+                 <a href="whatsapp://send?phone=221764569061&text=Bonjour,%20j'aimerais%20découvrir%20vos produits !" target="_blank">ACHETER MAINTENANT</a>
               </li>
               <li class="produit">
                   <div>
@@ -58,7 +58,7 @@
                   </div>
                   <span>Couscous Niébé</span>
                   <span class="prix">300.000$</span>
-                  <a href="#">ACHETER MAINTENANT</a>
+                  <a href="whatsapp://send?phone=221764569061&text=Bonjour,%20j'aimerais%20découvrir%20vos produits !" target="_blank">ACHETER MAINTENANT</a>
                </li>
                <li class="produit">
                   <div>
@@ -66,7 +66,7 @@
                   </div>
                   <span>Croquette Niébé</span>
                   <span class="prix">3000 FCFA</span>
-                  <a href="#">ACHETER MAINTENANT</a>
+                  <a href="whatsapp://send?phone=221764569061&text=Bonjour,%20j'aimerais%20découvrir%20vos 20produits !" target="_blank">ACHETER MAINTENANT</a>
                </li>
                <li class="produit">
                   <div>
@@ -74,7 +74,7 @@
                   </div>
                   <span>Farine Niébé</span>
                   <span class="prix">300.000$</span>
-                  <a href="#">ACHETER MAINTENANT</a>
+                  <a href="whatsapp://send?phone=221764569061&text=Bonjour,%%20j'aimerais%20découvrir%20vos 20produits ! " target="_blank">ACHETER MAINTENANT</a>
                </li>
                <li class="produit">
                 <div>
@@ -82,7 +82,7 @@
                 </div>
                 <span>Jus Niébé</span>
                 <span class="prix">300.000$</span>
-                <a href="#">ACHETER MAINTENANT</a>
+                <a href="whatsapp://send?phone=221764569061&text=Bonjour,%20j'aimerais%20découvrir%20vos %20produits !" target="_blank">ACHETER MAINTENANT</a>
              </li>
           </ul>
       </div>
@@ -99,11 +99,11 @@
           <div class="form_contact">
               <h3>Envoyer un message</h3>
               <form action="#">
-                  <input type="text"placeholder="Nom">
-                  <input type="email"placeholder="Adresse Mail">
-                  <input type="text"placeholder="Objet">
+                  <input type="text"placeholder="Nom"required>
+                  <input type="email"placeholder="Adresse Mail"required>
+                  <input type="text"placeholder="Numéro"required>
                   <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                  <input type="submit" value="Envoyer">
+                  <input type="submit" value="Envoyer" id="envoyerBtn">
               </form>
           </div>
       </div>
@@ -142,6 +142,12 @@
        menu_toggle_span.classList.toggle('active');
        menu.classList.toggle('responsive') ;
    }
+
+
+document.getElementById('envoyerBtn').addEventListener('click', function() {
+    alert('Message envoyé !');
+});
+
 
 </script>
 
