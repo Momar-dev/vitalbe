@@ -96,6 +96,7 @@
           </ul>
       </div>
   </section>
+
         <section id="partenaire">
       <section id="produits">
   <h1 class="section_title">Notre partenaire</h1>
@@ -113,9 +114,8 @@
               <h3>Notre Adresse</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7715.226324172583!2d-16.941990909103538!3d14.790806016238502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1bfbf94db1b3f%3A0xf9e6364a8f8032e5!2zZGl4acOpbWUsIFRoacOocw!5e0!3m2!1sfr!2ssn!4v1742048060909!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-
             <!-- a revoir la section de message parce que c'est un semi dynamique -->
-          <div class="form_contact">
+          <!-- <div class="form_contact">
               <h3>Discutez avec Nous </h3>
               <form action="#">
                   <input type="text"placeholder="Nom"required>
@@ -125,11 +125,17 @@
                   <input type="submit" value="Envoyer" id="envoyerBtn">
               </form>
           </div>
-      </div>
-
-
+      </div> -->
+      <section class="payment">
+          <h2>Méthode de paiement</h2>
+          <div class="payment-logos">
+              <img src="VITALBE/OrangeMoney.png">
+              <img src="VITALBE/wave_logo.png">
+              <img src="VITALBE/wizall.png">
+              <img src="VITALBE/freemoney.png">
+          </div>
+      </section>
   </section>  
-
 <footer class="footer">
    <div class="container">
       <div class="row">        
@@ -148,10 +154,8 @@
 
          </div>
    </div>
-
          <h5 class="auteur">&copy; Momar DIOP | Tous droits réservés.</h5>                  
-</footer>
-    
+</footer>  
  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -172,7 +176,6 @@
     ]
   }
   </script>
-    
 <script>
    var menu_toggle = document.querySelector('.menu_toggle');
    var menu = document.querySelector('.menu');
@@ -187,7 +190,5 @@ document.getElementById('envoyerBtn').addEventListener('click', function() {
     alert('Message envoyé !');
 });
 </script>
-
-
 </body>
 </html>
