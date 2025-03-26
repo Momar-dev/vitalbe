@@ -5,27 +5,25 @@
     <link rel="stylesheet" href="style.css">
      <link rel="shortcut icon" href="VITALBE/icones.svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <meta name="description" content="Le niébé, une légumineuse polyvalente et écologique, se distingue par ses nombreuses variétés et son usage culinaire et médicinal. Culture durable, il soutient l'agriculture locale et connaît une forte demande internationale." />
+    <meta name="description" content="Le niébé, une légumineuse polyvalente et écologique, se distingue par ses nombreuses variétés et son usage culinaire et médicinal. Culture durable, il soutient l'agriculture locale et connaît une forte demande internationale."/>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <title>Vitalbé</title>
 </head>
 <body>
-
      <header>
       <div class="menu_toggle">
           <span></span>
       </div>
       <div class="logo">
-          <p><span>Vital</span>Bé</p>
+          <p style="cursor: pointer;"><span>Vital</span>Bé</p>
       </div>
       <ul class="menu">
           <li><a href="#home">Acceuil</a></li>
           <li><a href="#produits">Produit</a></li>
           <li><a href="#contact">Contact</a></li>
+           <li><a href="#partenaire">Partenaire</a></li>
       </ul>
   </header>
-
-   
   <section id="home">
       <div class="left">
          <h1>Niébé <br> <span> 100 % Naturel </span></h1>
@@ -46,7 +44,7 @@
           <ul>
               <li class="produit">
                  <div>
-                     <img src="VITALBE/café.jpeg" alt="">
+                     <img src="VITALBE/café.jpeg" alt="café niébé">
                  </div>
                  <span>Café Niébé</span>
                  <span class="prix">1200 FCFA</span>
@@ -54,7 +52,7 @@
               </li>
               <li class="produit">
                   <div>
-                      <img src="VITALBE/couscous.jpeg" alt="">
+                      <img src="VITALBE/couscous.jpeg" alt="couscous niébé">
                   </div>
                   <span>Couscous Niébé</span>
                   <span class="prix">1500 FCFA</span>
@@ -62,7 +60,7 @@
                </li>
                <li class="produit">
                   <div>
-                      <img src="VITALBE/croquette.jpeg" alt="">
+                      <img src="VITALBE/croquette.jpeg" alt="croquette niébé">
                   </div>
                   <span>Croquette Niébé</span>
                   <span class="prix">500 FCFA</span>
@@ -70,7 +68,7 @@
                </li>
                <li class="produit">
                   <div>
-                      <img src="VITALBE/farine.jpeg" alt="">
+                      <img src="VITALBE/farine.jpeg" alt="farine niébé">
                   </div>
                   <span>Farine Niébé</span>
                   <span class="prix">1000 FCFA</span>
@@ -78,7 +76,7 @@
                </li>
                <li class="produit">
                 <div>
-                    <img src="VITALBE/jus.jpeg" alt="">
+                    <img src="VITALBE/jus.jpeg" alt="jus niébé">
                 </div>
                 <span>Jus Niébé</span>
                 <span class="prix">1200 FCFA</span>
@@ -87,15 +85,25 @@
           </ul>
       </div>
   </section>
-
+        <section id="partenaire">
+      <section id="produits">
+  <h1 class="section_title">Notre partenaire</h1>
+       </section>
+  <section class="partenaire">
+          <img src="VITALBE/herbenet.png" class="log" alt="Logo partenaire">
+          <p class="part">Herbenet </p>
+          <a href="https://www.herbenet.com" target="_blank" class="lien-partenaire">Visitez leur site</a>
+      </section>
+      </section>
    <section id="contact">
-      <h1 class="section_title">Nos contacts</h1>
+      <h1 class="section_title">Notre Adresse</h1>
       <div class="localisation_contact_div">
           <div class="localisation">
               <h3>Notre Adresse</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7715.226324172583!2d-16.941990909103538!3d14.790806016238502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1bfbf94db1b3f%3A0xf9e6364a8f8032e5!2zZGl4acOpbWUsIFRoacOocw!5e0!3m2!1sfr!2ssn!4v1742048060909!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
+            <!-- a revoir la section de message parce que c'est un semi dynamique -->
           <div class="form_contact">
               <h3>Envoyer un message</h3>
               <form action="#">
@@ -107,6 +115,8 @@
               </form>
           </div>
       </div>
+
+
   </section>  
 <footer class="footer">
    <div class="container">
@@ -131,8 +141,6 @@
 </footer>
 
 <script>
-
-
    var menu_toggle = document.querySelector('.menu_toggle');
    var menu = document.querySelector('.menu');
    var menu_toggle_span = document.querySelector('.menu_toggle span');
@@ -142,13 +150,9 @@
        menu_toggle_span.classList.toggle('active');
        menu.classList.toggle('responsive') ;
    }
-
-
 document.getElementById('envoyerBtn').addEventListener('click', function() {
     alert('Message envoyé !');
 });
-
-
 </script>
 
 

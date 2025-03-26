@@ -468,3 +468,37 @@ ul{
 	}
 }
 
+
+.partenaire{
+    background-color: #fff;
+    border: 4px solid #09bc64;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow:  0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    margin-bottom: 100px;
+    max-width: 400px;
+}
+.log{
+    max-width: 100%;
+    height: auto;
+}
+.part{
+    color:#999;
+    font-size: 10px;
+}
+
+.lien-partenaire{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color:#09bc64;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.lien-partenaire:hover{
+    background-color: black;
+}
