@@ -186,7 +186,7 @@ header button {
     font-size: 18px;
 }
 
-#produits li span.prix {
+#produits li span .prix {
    color: #09bc64;
    font-weight: bold;
    margin-bottom: 10px;
@@ -198,12 +198,6 @@ header button {
     padding: 5px 20px;
     font-size: 15px;
 }
-
-/*#produits .produit{
-    justify-content: center;
-    display: flex;
-
-}*/
 
 #contact {
     height: 100vh;
@@ -451,7 +445,49 @@ ul{
 		width: 100%;
 	}
 }
+.product-family-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 4px 15px #09bc64;
+    border-radius: 12px;
+    margin: 20px;
+}
 
+.containere {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.family-image {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.product-info h2 {
+    font-size: 4em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.product-info p {
+    font-size: 2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 21px;
+}
 
 .partenaire{
     background-color: #fff;
@@ -513,3 +549,4 @@ ul{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
