@@ -73,11 +73,12 @@ header button {
 
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
     background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #09bc64;
+       border-radius: 2em;
 }
 
 #home .left {
@@ -246,6 +247,7 @@ header button {
     display: none;
 }
 
+
 @media (max-width:682px) {
     header {
         padding: 0 10px;
@@ -265,7 +267,7 @@ header button {
         margin-top: 100px;
     }
     .right {
-        margin-top: 50px;
+        margin-top: -78px;
         width: 60%;
     }
     .images li {
